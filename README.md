@@ -1,1 +1,26 @@
 # generative art machine
+
+I wanted a way to product album art for the music I make. I'm not very visually
+artistic. This repo contains code I threw together to produce visually
+appealing art (to me) that I can use for album art. Hope it's useful or fun for
+someone else :)
+
+# installing
+
+Install the regular golang environment, then run:
+
+```
+go build -o art_generator .
+./art_generator
+Server is running at http://localhost:8080
+```
+
+# Generating art
+
+Making art is simple. Think of a word, phrase or random selection of characters
+as your seed. Place it in the box and click Generate. 
+
+Please keep in mind that this code is experimental and is multi-threaded, it
+will push your CPU to its limits. Keeping the size smaller will reduce the
+amount of pixels the CPU has to assemble. I like to use the smaller sizes to
+find a seed I like and then crank it up to produce a higher resolution version.
