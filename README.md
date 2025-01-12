@@ -24,3 +24,9 @@ Please keep in mind that this code is experimental and is multi-threaded, it
 will push your CPU to its limits. Keeping the size smaller will reduce the
 amount of pixels the CPU has to assemble. I like to use the smaller sizes to
 find a seed I like and then crank it up to produce a higher resolution version.
+
+# credits
+
+I was inspired by
+[https://www.random-art.org/about/](https://www.random-art.org/about/) and this [Python
+implementation](http://math.andrej.com/2010/04/21/random-art-in-python/).
