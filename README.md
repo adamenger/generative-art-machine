@@ -15,7 +15,7 @@ go build -o art_generator .
 Server is running at http://localhost:8080
 ```
 
-# Generating art
+# generating art
 
 Making art is simple. Think of a word, phrase or random selection of characters
 as your seed. Place it in the box and click Generate. 
@@ -24,6 +24,16 @@ Please keep in mind that this code is experimental and is multi-threaded, it
 will push your CPU to its limits. Keeping the size smaller will reduce the
 amount of pixels the CPU has to assemble. I like to use the smaller sizes to
 find a seed I like and then crank it up to produce a higher resolution version.
+
+# examples
+
+Seed: `supercalifragilisticexpialidocious`
+
+![examples/supercalifragilisticexpialidocious.png](examples/supercalifragilisticexpialidocious.png)
+
+Seed: `hootenanny`
+
+![examples/hootenanny.png](examples/hootenanny.png)
 
 # credits
 
