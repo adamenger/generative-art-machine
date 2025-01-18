@@ -13,10 +13,10 @@ var templates = template.Must(template.New("main").Parse(`
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Random Art Generator</title>
+    <title>Generative Art Machine</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <style>
-        body { text-align: center; margin-top: 50px; }
+        body { text-align: center; }
         #progress { display: none; }
         img { cursor: pointer; margin: auto; width: 512px; height: 512px;}
     </style>
@@ -24,7 +24,7 @@ var templates = template.Must(template.New("main").Parse(`
 <body>
     <section class="section">
         <div class="container">
-            <h1 class="title is-4">Random Art Generator</h1>
+            <h1 class="title is-5">Generative Art Machine</h1>
             <p>Enter a seed to generate unique random art:</p>
             <form id="form" class="field is-grouped is-justify-content-center">
                 <div class="control">
@@ -35,6 +35,7 @@ var templates = template.Must(template.New("main").Parse(`
                 </div>
                 <div class="select is-primary">
                       <select id="size">
+                        <option>128</option>
                         <option>256</option>
                         <option>512</option>
                         <option>1024</option>

@@ -27,6 +27,10 @@ find a seed I like and then crank it up to produce a higher resolution version.
 
 # examples
 
+Seed: `adamenger`
+
+![examples/adamenger.png](examples/adamenger.png)
+
 Seed: `supercalifragilisticexpialidocious`
 
 ![examples/supercalifragilisticexpialidocious.png](examples/supercalifragilisticexpialidocious.png)
