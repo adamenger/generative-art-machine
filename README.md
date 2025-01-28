@@ -1,7 +1,7 @@
 # generative art machine
 
 I wanted a way to produce album art for [the music](https://soundcloud.com/the-atomic-music-machine) I make. I'm not very visually
-artistic. This repo contains code I threw together to produce visually
+artistic so this tool(or toy) is a way to enhance my capabilities as an artist. This repo contains code I threw together to produce visually
 appealing art (to me) that I can use for album art. Hope it's useful or fun for
 someone else :)
 
